@@ -2,7 +2,9 @@
 
 이 프로젝트는 [크로우캐년](https://crowcanyon.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다. </br>
 </br>
-**데모영상 :** https://youtu.be/--gfsEindSE
+![crwosSeven_main](https://user-images.githubusercontent.com/97112697/172040440-b586430d-e7ea-445e-9c95-0d4141fa5795.gif)</br>
+</br>
+**전체 데모영상 :** https://youtu.be/--gfsEindSE
 </br>
 - _[`프론트엔드` GitHub repository](https://github.com/wecode-bootcamp-korea/33-1st-crowsSeven-frontend)_ </br>
 - _[`백엔드` GitHub repository](https://github.com/wecode-bootcamp-korea/33-1st-crowsSeven-backend)_
@@ -105,6 +107,7 @@
 </br>
 
 ## 박슬기's work
+![crwosSeven_product_filter](https://user-images.githubusercontent.com/97112697/172040512-da1505b8-eceb-4843-acce-5336e3a7d636.gif)</br>
 </br>
 
 ## **Reference**
