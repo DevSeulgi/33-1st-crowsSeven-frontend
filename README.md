@@ -1,6 +1,6 @@
 ## 크로우즈세븐
 
-이 프로젝트는 [크로우캐년](https://crowcanyon.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다. </br>
+이 프로젝트는 [크로우캐년](https://crowcanyon.co.kr/) 사이트를 참조하여 학습목적으로 진행되었습니다. </br>
 </br>
 ![crwosSeven_main](https://user-images.githubusercontent.com/97112697/172040440-b586430d-e7ea-445e-9c95-0d4141fa5795.gif)</br>
 </br>
@@ -17,7 +17,7 @@
 </br>
 
 ## 개발 기간 및 인원
-개발 기간 : 5월 23일 - 6월 3일 (11일)
+**개발 기간 :** 5월 23일 - 6월 3일 (11일)
 </br>
 
 ### 프론트엔드
