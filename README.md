@@ -107,8 +107,55 @@
 </br>
 
 ## 박슬기's work
+### 📖 상품 목록 페이지
 ![crwosSeven_product_filter](https://user-images.githubusercontent.com/97112697/172040512-da1505b8-eceb-4843-acce-5336e3a7d636.gif)</br>
 </br>
+**1. 상품 목록 반응형 구현**
+- 4열 고정 노출을 위해 flex wrap 사용
+- 각 item은 width를 %로 구현
+
+**2. array.map을 이용하여 백엔드와 DB 연동**
+- 상품명, 가격, 태그 정보 연동
+- 목록의 length를 가져와 상품 갯수 표기
+
+**3. 상품 썸네일 및 전체 버튼의 hover 구현**
+- 상품 썸네일 img에 hover 시 버튼 transition
+
+**4. 상품 목록 2열 / 4열 보기 추가**
+- listType을 추가하여 false를 기본 type으로 지정, true는 2열 보기 / false는 4열보기로 구현
+- true/false에 따라 해당 scss 클래스명 지정
+
+**5. 상품 품절 상태 일 경우 태그 노출**
+- Data의 state 상태에 따라 상품 Tag 노출
+
+</br>
+
+### 🛒 Quick Shop Modal
+- 테이블을 활용하여 상품 description 레이아웃 구현
+</br>
+
+### 💡 상품 상세 페이지
+![crowsSeven_productDetail](https://user-images.githubusercontent.com/97112697/172053747-b1fd3b0c-c4a0-47d4-a115-618e467ea861.gif)</br>
+</br>
+
+**1. 레이아웃 구성**
+- width를 각각 60% : 40%로 주어 어느정도의 반응형에 대응할 수 있도록 구현
+- 상세페이지 이미지에는 min-width 부여
+
+**3. 상품 수량 선택**
+- 1개 이하로 수량 선택 시 alert 구현 ("주문 수량은 1 이상이어야 합니다.")
+- 초기값 1로 지정 up, down 버튼을 통해 수량 조절
+- 선택 수량에 따른 total 가격 및 수량 변화 구현
+
+**4. hover & transition**
+- 구매하기 / 장바구니 버튼 hover 시 색상 변경 및 transition
+- wish list / 상품후기 / 상품문의 / size 버튼 hover 시 색상 변경
+
+**5. Drawer 구현**
+- 상품후기 / 상품문의 버튼 클릭 시 handle~Drawer 실행으로 각 Drawer state를 반대로 전환
+- Drawer Background 클릭 시 handle~Drawer 실행으로 Drawer 닫기 구현
+</br>
+
 
 ## **Reference**
 - 실무수준의 프로젝트이지만 학습용으로 만들었기 때문에 이 코드를 활용하여 이득을 취하거나 무단 배포할 경우 법적으로 문제될 수 있습니다.
